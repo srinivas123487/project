@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f; /* Deep dark background */
+  color: #e0f2f1; /* Soft mint white text */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #0c180f; /* Darker inner container */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #00c896; /* ChatGPT mint green for main heading */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #a0aab4; /* Subtle gray for subtitle */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #e0f2f1; /* Light mint for headings */
+  border-bottom: 2px solid #00c896;
+  padding-bottom: 4px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+  color: #cfd8dc; /* Slightly dimmer for better readability */
+}
+
+a {
+  color: #00e0a8; /* ChatGPT-style mint green link */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00b894; /* Darker mint for hover */
+}
+
+.resume-link {
+  font-weight: bold;
+  color: #00e0a8;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #90a4ae;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #00e0a8;
+  font-weight: 600;
+}
+
+.social-links a:hover {
+  color: #00b894;
+}
